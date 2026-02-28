@@ -36,4 +36,3 @@ def add(nlist,mlist, temp, result):
     return add(nlist[:-1], mlist[:-1], temp, result) + str(r)
   
 print(add(nlist, mlist, 0, []))
-# print(f"Kørselstid: {time.time() - start} sekunder")
